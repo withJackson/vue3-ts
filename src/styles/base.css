@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  /* touch-callout:none; */
+  -webkit-touch-callout:none;
+  -moz-touch-callout:none;
+  -ms-touch-callout:none;
+  -webkit-overflow-scrolling:touch;
+}
+a,img,button,input,textarea,div{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+html{
+  height: 100%;
+  overflow: hidden;
+  font-size: calc(100vw * 100 / 375);
+}
+body{
+  height: 100%;
+  font-size: 16px
+}
+.app{
+  height: 100%
+}
+.page{
+  height: 100%
+}
